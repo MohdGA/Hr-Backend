@@ -1,0 +1,8 @@
+# 1. Make changes to your model files
+# 2. Generate migration
+pipenv run alembic revision --autogenerate -m "Description of changes"
+
+# 3. Review the generated migration file in migrations/versions/
+# 4. Apply the migration
+
+# pipenv run alembic upgrade head
