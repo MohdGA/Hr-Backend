@@ -1,5 +1,3 @@
-from dotenv import load_dotenv
-load_dotenv()
 
 from fastapi import FastAPI
 from controllers.hr import router as HrRouter
